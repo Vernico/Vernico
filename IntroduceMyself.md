@@ -1,0 +1,8 @@
+- 👋 Hi, I’m @Vernico(Jay)
+- 👀 I’m interested in C++,Java,JavaScript & Python
+- 🌱 I’m currently learning C++
+- </>From Bhopal Madhya Pradesh(India)
+<!---
+Vernico/Vernico is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
