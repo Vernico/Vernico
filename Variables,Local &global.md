@@ -1,0 +1,58 @@
+#include<iostream>
+using namespace std;
+int main(){
+    // How to print various variables
+    int a=4,b=5;
+    float pi=3.14;
+    char letter = 'e';
+    cout<<"This is our 3rd C++ Program.\nThe value of a is "<<a<<"\nThe value of b is "<<b<<endl;
+    cout<<"The value of pi is "<<pi<<endl;
+    cout<<"The value of letter is "<<letter<<endl;
+    return 0;
+}
+
+
+// Making global variables
+#include<iostream>
+using namespace std;
+int glo = 6;
+void sum(){
+     int a;
+     }
+int main(){
+    sum();
+    cout<<glo;
+    return 0;
+}
+
+// Can we create local & global variable with same name ----> Yes but the preferance will given to local variable
+#include<iostream>
+using namespace std;
+int glo = 6;
+void sum(){
+     int a;
+     }
+int main(){
+    int glo = 56;
+    glo = 88;
+    sum();
+    cout<<glo;
+    return 0;
+}
+
+
+V#include<iostream>
+using namespace std;
+int glo = 6;
+void sum(){
+     int a;
+     cout<<glo;
+     }
+int main(){
+    int glo = 56;
+    glo = 88;
+    sum();
+    cout<<glo;
+    return 0;
+}
+    
